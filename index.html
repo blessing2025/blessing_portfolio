@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Blessing Nonyerem Ojikpe | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&amp;family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary": "#000f22",
+                        "secondary": "#006c49",
+                        "primary-container": "#0a2540",
+                        "secondary-container": "#6cf8bb",
+                        "on-surface": "#1b1c1e",
+                        "on-surface-variant": "#43474d",
+                        "outline-variant": "#c4c6ce",
+                        "background": "#faf9fb",
+                    },
+                    "fontFamily": {
+                        "headline": ["Lexend"],
+                        "body": ["Manrope"],
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #000f22 0%, #006c49 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="font-body bg-background text-on-surface">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass-card border-b border-outline-variant/30">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <span class="font-headline font-bold text-primary text-xl">BNO.</span>
+            <div class="hidden md:flex gap-8 text-sm font-semibold uppercase tracking-wider">
+                <a href="#about" class="hover:text-secondary transition-colors">About</a>
+                <a href="#skills" class="hover:text-secondary transition-colors">Skills</a>
+                <a href="#projects" class="hover:text-secondary transition-colors">Projects</a>
+                <a href="#experience" class="hover:text-secondary transition-colors">Experience</a>
+            </div>
+            <a href="mailto:blessingnonyerem2004@gmail.com" class="bg-primary text-white px-5 py-2 rounded-full text-sm font-headline hover:opacity-90 transition-all">Contact Me</a>
+        </div>
+    </nav>
+
+    <main class="pt-24">
+        <!-- Hero Section -->
+        <section id="about" class="max-w-7xl mx-auto px-6 py-16 md:py-32 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="inline-block px-4 py-1 rounded-full bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-widest mb-6">
+                    Available for Cloud & Dev Roles
+                </span>
+                <h1 class="font-headline text-5xl md:text-7xl font-extrabold text-primary-container leading-tight mb-6">
+                    Blessing <br/> <span class="gradient-text">Nonyerem Ojikpe</span>
+                </h1>
+                <p class="text-lg text-on-surface-variant leading-relaxed max-w-xl mb-8">
+                    Final-year Computer Science Engineering student at IUC specialized in <span class="text-secondary font-bold">Cloud Computing</span>. 
+                    I build scalable, efficient systems and design cloud architectures that solve real-world problems.
+                </p>
+                <div class="flex flex-wrap gap-6 mb-8">
+                    <div class="flex flex-col">
+                        <span class="text-xs font-bold text-outline uppercase tracking-tighter">Graduating</span>
+                        <span class="font-headline font-bold text-primary">July 2026</span>
+                    </div>
+                    <div class="w-[1px] bg-outline-variant h-10 hidden sm:block"></div>
+                    <div class="flex flex-col">
+                        <span class="text-xs font-bold text-outline uppercase tracking-tighter">Focus</span>
+                        <span class="font-headline font-bold text-primary">Cloud Architecture</span>
+                    </div>
+                </div>
+
+                <!-- Social Links Space -->
+                <div class="flex gap-4">
+                    <a href="mailto:blessingnonyerem2004@gmail.com" class="p-3 rounded-xl bg-white border border-outline-variant hover:border-secondary hover:text-secondary transition-all shadow-sm flex items-center gap-2 group">
+                        <span class="material-symbols-outlined text-xl">mail</span>
+                        <span class="text-sm font-bold">email me</span>
+                    </a>
+                    <a href="https://github.com/blessing2025" target="_blank" class="p-3 rounded-xl bg-white border border-outline-variant hover:border-secondary hover:text-secondary transition-all shadow-sm flex items-center gap-2 group">
+                        <span class="material-symbols-outlined text-xl">code</span>
+                        <span class="text-sm font-bold">GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/blessing-nonyerem" target="_blank" class="p-3 rounded-xl bg-white border border-outline-variant hover:border-secondary hover:text-secondary transition-all shadow-sm flex items-center gap-2 group">
+                        <span class="material-symbols-outlined text-xl">linkedin</span>
+                        <span class="text-sm font-bold">LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="aspect-square bg-gradient-to-br from-secondary-container to-primary-container/20 rounded-[3rem] rotate-3 overflow-hidden shadow-2xl">
+                    <img src="WhatsApp Image 2026-04-27 at 3.17.39 PM.jpeg" alt="Blessing Nonyerem Ojikpe" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="bg-primary-container text-white py-24">
+            <div class="max-w-7xl mx-auto px-6">
+                <h2 class="font-headline text-3xl font-bold mb-12">Technical Arsenal</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Languages -->
+                    <div class="p-8 rounded-3xl border border-white/10 bg-white/5">
+                        <span class="material-symbols-outlined text-secondary-container mb-4">code</span>
+                        <h3 class="font-headline text-xl font-bold mb-4">Languages</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 rounded-lg bg-white/10 text-sm">JavaScript</span>
+                            <span class="px-3 py-1 rounded-lg bg-white/10 text-sm">Python</span>
+                            <span class="px-3 py-1 rounded-lg bg-white/10 text-sm">C++</span>
+                            <span class="px-3 py-1 rounded-lg bg-white/10 text-sm">HTML/CSS</span>
+                        </div>
+                    </div>
+                    <!-- Frameworks -->
+                    <div class="p-8 rounded-3xl border border-white/10 bg-white/5">
+                        <span class="material-symbols-outlined text-secondary-container mb-4">layers</span>
+                        <h3 class="font-headline text-xl font-bold mb-4">Frameworks</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 rounded-lg bg-white/10 text-sm">React</span>
+                            <span class="px-3 py-1 rounded-lg bg-white/10 text-sm">Vue</span>
+                            <span class="px-3 py-1 rounded-lg bg-white/10 text-sm">Node.js</span>
+                            <span class="px-3 py-1 rounded-lg bg-white/10 text-sm">Django</span>
+                            <span class="px-3 py-1 rounded-lg bg-white/10 text-sm">Tailwind CSS</span>
+                        </div>
+                    </div>
+                    
+
+                    <!-- Cloud & Tools -->
+                    <div class="p-8 rounded-3xl border border-white/10 bg-white/5">
+                        <span class="material-symbols-outlined text-secondary-container mb-4">cloud</span>
+                        <h3 class="font-headline text-xl font-bold mb-4">Cloud & DevOps</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 rounded-lg bg-white/10 text-sm font-bold text-secondary-container">AWS</span>
+                            <span class="px-3 py-1 rounded-lg bg-white/10 text-sm">Docker</span>
+                            <span class="px-3 py-1 rounded-lg bg-white/10 text-sm">Firebase</span>
+                            <span class="px-3 py-1 rounded-lg bg-white/10 text-sm">Supabase</span>
+                            <span class="px-3 py-1 rounded-lg bg-white/10 text-sm">Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="max-w-7xl mx-auto px-6 py-24">
+            <div class="flex justify-between items-end mb-12">
+                <div>
+                    <h2 class="font-headline text-3xl font-bold text-primary">Featured Work</h2>
+                    <p class="text-on-surface-variant">Scalable solutions and cloud architectures.</p>
+                </div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- SaveTrack Project -->
+                <div class="group glass-card rounded-[2.5rem] p-4 border border-outline-variant hover:border-secondary transition-all">
+                    <div class="aspect-video rounded-[2rem] bg-surface-variant mb-6 overflow-hidden relative">
+                        <div class="absolute inset-0 bg-primary-container flex items-center justify-center">
+                             <span class="material-symbols-outlined text-secondary-container text-6xl">account_balance_wallet</span>
+                        </div>
+                    </div>
+                    <div class="px-4 pb-4">
+                        <h3 class="font-headline text-2xl font-bold text-primary mb-2">SaveTrack</h3>
+                        <p class="text-on-surface-variant text-sm mb-6 leading-relaxed">
+                            A secure personal financial tracking application featuring bank-grade security protocols, real-time sync, and automated saving goals.
+                        </p>
+                        <div class="flex gap-2 mb-6">
+                            <span class="text-[10px] font-bold uppercase tracking-widest px-2 py-1 bg-background border border-outline-variant rounded">Tailwind CSS</span>
+                            <span class="text-[10px] font-bold uppercase tracking-widest px-2 py-1 bg-background border border-outline-variant rounded">Node.js</span>
+                            <span class="text-[10px] font-bold uppercase tracking-widest px-2 py-1 bg-background border border-outline-variant rounded">Firebase</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                <!-- Placeholder Project 2 -->
+                <div class="group glass-card rounded-[2.5rem] p-4 border border-outline-variant hover:border-secondary transition-all">
+                    <div class="aspect-video rounded-[2rem] bg-secondary-container/20 mb-6 flex items-center justify-center">
+                         <span class="material-symbols-outlined text-primary-container text-6xl">hub</span>
+                    </div>
+                    <div class="px-4 pb-4">
+                        <h3 class="font-headline text-2xl font-bold text-primary mb-2">Cloud Infrastructure Project</h3>
+                        <p class="text-on-surface-variant text-sm mb-6 leading-relaxed">
+                            Designing and deploying scalable containerized environments using Docker and AWS for optimized performance.
+                        </p>
+                        <div class="flex gap-2 mb-6">
+                            <span class="text-[10px] font-bold uppercase tracking-widest px-2 py-1 bg-background border border-outline-variant rounded">AWS</span>
+                            <span class="text-[10px] font-bold uppercase tracking-widest px-2 py-1 bg-background border border-outline-variant rounded">Docker</span>
+                        </div>
+                        <span class="text-sm font-medium text-outline">Details coming soon...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education -->
+        <section id="experience" class="max-w-3xl mx-auto px-6 py-24">
+            <h2 class="font-headline text-3xl font-bold text-primary mb-12 text-center">Journey</h2>
+            
+            <div class="space-y-12">
+                <!-- Tech Junior Developer -->
+                <div class="flex gap-6 relative">
+                    <div class="absolute left-[19px] top-10 bottom-[-48px] w-[2px] bg-outline-variant"></div>
+                    <div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center z-10 shrink-0">
+                        <span class="material-symbols-outlined text-on-secondary-container text-sm">work</span>
+                    </div>
+                    <div>
+                        <span class="text-sm font-bold text-secondary uppercase tracking-tighter">June 2024 — Sept 2024</span>
+                        <h4 class="font-headline text-xl font-bold text-primary">Junior Developer</h4>
+                        <p class="text-on-surface-variant mt-2">Gained hands-on experience in full-stack development, contributing to production code and optimizing system performance.</p>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="flex gap-6">
+                    <div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center z-10 shrink-0">
+                        <span class="material-symbols-outlined text-white text-sm">school</span>
+                    </div>
+                    <div>
+                        <span class="text-sm font-bold text-secondary uppercase tracking-tighter">Graduating July 2026</span>
+                        <h4 class="font-headline text-xl font-bold text-primary">Computer Science Engineering</h4>
+                        <p class="text-on-surface-variant mt-2">Institut universitaire de la cote (IUC)</p>
+                        <p class="text-sm text-on-surface-variant italic">Specialization in Cloud Computing</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="max-w-7xl mx-auto px-6 py-24 border-t border-outline-variant/30">
+            <div class="glass-card rounded-[3rem] p-12 text-center bg-gradient-to-br from-white to-secondary-container/10">
+                <h2 class="font-headline text-4xl font-bold text-primary mb-4">Let's build something together</h2>
+                <p class="text-on-surface-variant max-w-2xl mx-auto mb-10">
+                    I'm currently looking for new opportunities in Cloud Engineering and Development. 
+                    Whether you have a question or just want to say hi, my inbox is always open!
+                </p>
+                <a href="mailto:blessingnonyerem2004@gmail.com" class="inline-flex items-center gap-3 bg-primary text-white px-10 py-4 rounded-full font-headline font-bold hover:scale-105 transition-all shadow-xl shadow-primary/20">
+                    <span class="material-symbols-outlined">send</span>
+                    Send an Email
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white border-t border-outline-variant py-12">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-center md:text-left">
+                <span class="font-headline font-bold text-primary text-xl">BNO.</span>
+                <p class="text-sm text-on-surface-variant mt-2">© 2024 Blessing Nonyerem Ojikpe. All rights reserved.</p>
+            </div>
+            <div class="flex gap-6">
+                <a href="https://linkedin.com/in/blessing-nonyerem" class="text-primary hover:text-secondary transition-colors font-bold uppercase text-xs tracking-widest">LinkedIn</a>
+                <a href="https://github.com/blessing2025" class="text-primary hover:text-secondary transition-colors font-bold uppercase text-xs tracking-widest">GitHub</a>
+                <a href="#" class="text-primary hover:text-secondary transition-colors font-bold uppercase text-xs tracking-widest">Resume</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
